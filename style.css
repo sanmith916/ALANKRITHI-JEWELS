@@ -1,0 +1,273 @@
+body {
+  font-family: 'Times New Roman', Times, serif ;
+  background-color: #fffdf8;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+header {
+  background-color: #ffc1cc;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 30px;
+  text-align: center;
+  background-color: #ffe6ea;
+}
+
+.products {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #f76c6c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffd9e1;
+}
+.home {
+  background-image: linear-gradient(to bottom right, #fff0f5, #ffe6e6);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.home-content h2 {
+  font-size: 28px;
+  color: #cc0066;
+  margin-bottom: 15px;
+}
+
+.home-content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home .btn {
+  background-color: #ff4d6d;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.home .btn:hover {
+  background-color: #e6004c;
+}
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #d6006f;
+}
+
+.products, .home, .contact {
+  padding: 30px;
+  text-align: center;
+}
+.home {
+  background-image: url('images/bg-jewellery.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.home .overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* optional dark overlay */
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.home h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #fff7f9;
+}
+
+.home p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.home .btn {
+  background-color: #ff4d6d;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.contact {
+  background-image: url('images/bg-contact.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.contact .overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+  padding: 40px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.contact h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #fff6f0;
+}
+
+.contact p {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.products {
+  background-image: url('images/bg-contact.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 20px;
+  color: white;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.products .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.products h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #fff2f2;
+}
+
+.product {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 50%;
+  max-width: 900px;
+  color: #222;
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 8px 4px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+
+
+.wa-btn {
+  background-color: #25d366; /* WhatsApp green */
+}  
+.product {
+  background-color: transparent;
+  /* Or use a soft theme color: */
+  /* background-color: #f3e5ab; */
+}
+.product {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+}
+.btn.order-btn {
+  background-color: #f4b400; /* GPay yellow */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn.order-btn {
+  background-color: #f4b400;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+.btn {
+  display: block;
+  width: 160px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  color: white;
+}
+
+.order-now {
+  background-color: #0f9d58; /* GPay green */
+}
+
+.place-order {
+  background-color: #f4b400; /* Google Form yellow */
+}

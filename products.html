@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ALANKRITHI JEW - Products</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .products {
+      padding: 30px;
+    }
+    .product {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .btn {
+      display: block;
+      padding: 10px 20px;
+      margin: 10px auto;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+    }
+    .wa-btn {
+      background-color: #25D366;
+    }
+    .place-order {
+      background-color: #f9a825;
+    }
+    .submit-btn {
+      background-color: #1976D2;
+    }
+    .order-form {
+      margin-top: 15px;
+    }
+    .order-form img {
+      margin-top: 10px;
+    }
+    header {
+      text-align: center;
+      background: pink;
+      padding: 15px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Collection</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="products">
+    <!-- Product 1 -->
+<!--  <div class="product">
+     <img src="images/necklace.jpg" alt="Necklace">
+      <h4>Gold Plated Necklace</h4>
+      <p>*/price*/</p>
+
+      <a class="btn wa-btn" href="https://wa.me/8129356002?text=Hi!%20I'm%20interested%20in%20the%20Gold%20Plated%20Necklace%20(₹999).">Order Now</a>
+
+      <button class="btn place-order" onclick="toggleForm('form1')">Place Order</button>
+
+      <div id="form1" class="order-form" style="display:none;">
+        <p><strong>Scan & Pay via GPay:</strong></p>
+        <img src="images/upi-qr.jpg" alt="Scan QR to Pay" style="width:200px; border-radius:8px;">
+        <p><strong>UPI ID:</strong> sandrabhagath@oksbi</p>
+
+        <button class="btn submit-btn" onclick="window.location.href='https://forms.gle/gh5rEL1pEY3BKLUm8'">Submit Order</button>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+ <!--  <div class="product">
+      <img src="images/jhumka.jpg" alt="Traditional Jhumka">
+      <h4>Traditional Jhumka</h4>
+      <p>₹499</p>
+
+      <a class="btn wa-btn" href="https://wa.me/8129356002?text=Hi!%20I'm%20interested%20in%20the%20Traditional%20Jhumka%20(₹499).">Order Now</a>
+
+      <button class="btn place-order" onclick="toggleForm('form2')">Place Order</button>
+
+      <div id="form2" class="order-form" style="display:none;">
+        <p><strong>Scan & Pay via GPay:</strong></p>
+        <img src="images/upi-qr.jpg" alt="Scan QR to Pay" style="width:200px; border-radius:8px;">
+        <p><strong>UPI ID:</strong> sandrabhagath@oksbi</p>
+
+        <button class="btn submit-btn" onclick="window.location.href='https://forms.gle/gh5rEL1pEY3BKLUm8'">Submit Order</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p style="text-align: center;">&copy; ALANKRITHI 2025</p>
+  </footer>
+
+  <script>
+    function toggleForm(id) {
+      const form = document.getElementById(id);
+      form.style.display = form.style.display === 'none' ? 'block' : 'none';
+    }
+  </script>
+</body>
+</html>
